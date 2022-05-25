@@ -13,6 +13,7 @@ while roll_again == "yes" or roll_again == "y":
     diceNum = int(d_quantity)
     print("Rolling the die...")
     time.sleep(0.75)
+    
     while diceNum > 0:
         the_roll = randint(min, max)
         print(the_roll)
